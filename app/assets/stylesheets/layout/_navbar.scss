@@ -8,6 +8,12 @@
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 /* Optional class to fix the navbar on top */
@@ -40,11 +46,11 @@
 
 /* Navbar standard link */
 .navbar-wagon-link {
-  color: #616668;
+  color: white;
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: #20C3C6;
   text-decoration: none;
 }
 
