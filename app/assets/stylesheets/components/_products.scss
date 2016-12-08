@@ -25,7 +25,12 @@
 .product-image {
   border-radius: 10px;
   margin-right: 20px;
-  height: 80px !important;
+  height: 80px;
+}
+
+.fc {
+  margin-right: 20px;
+  height: 25px;
 }
 
 /* Upvote design */
@@ -76,8 +81,13 @@
 
 /* Hover effects */
 .product:hover {
-  background: #f7f7fa;
+  background: #777777;
   cursor: pointer;
+  color: white;
+  transition: all 0.15s ease;
+  p {
+    color: white;
+  }
 }
 .product-upvote:hover, .product-upvote.product-upvote-upvoted {
   color: #5898f1;
