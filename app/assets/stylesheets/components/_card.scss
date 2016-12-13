@@ -19,7 +19,7 @@
   transition: ease-in-out, opacity .5s ease-in-out;
 }
 
-.card-outline {
+#card-outline {
   box-shadow: 2px 2px 3px lightgrey;
   position: relative;
   margin-top: 25px;
@@ -33,6 +33,7 @@
   height: 298px;
   width: 359px;
   border-radius: 3px;
+  background: white;
 }
 
 .card-pin {
