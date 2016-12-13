@@ -80,15 +80,7 @@
 }
 
 /* Hover effects */
-.product:hover {
-  background: #777777;
-  cursor: pointer;
-  color: white;
-  transition: all 0.15s ease;
-  p {
-    color: white;
-  }
-}
+
 .product-upvote:hover, .product-upvote.product-upvote-upvoted {
   color: #5898f1;
   cursor: pointer;
