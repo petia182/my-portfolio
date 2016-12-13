@@ -1,0 +1,40 @@
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-image {
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 80px;
+  padding-right: 15px;
+  margin-bottom: 34px;
+}
+
+.skill-info {
+  font-size: 16px;
+  text-align: left;
+  padding: 10px;
+  position: absolute;
+  top: 107px;
+  transition: ease-in-out, top .5s ease-in-out;
+  p {
+    opacity: 0;
+    transition: opacity .3s;
+  }
+}
+
+.skill:hover {
+  .skill-info {
+    top: 10px;
+    p {
+      opacity: 1;
+      transition: opacity 1s;
+    }
+  }
+  .skill-image {
+    height: 0px;
+  }
+}
+
