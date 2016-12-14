@@ -9,8 +9,8 @@
   width: 80px;
   position: relative;
   padding-right: 15px;
-  margin-bottom: 34px;
-  margin-right: 20px;
+  margin-bottom: 45px;
+  margin-right: 40px;
 
 }
 
@@ -27,6 +27,7 @@
   position: absolute;
   top: 107px;
   transition: ease-in-out, top .5s ease-in-out;
+  text-align: center;
   p {
     opacity: 0;
     transition: opacity .3s;
@@ -35,17 +36,13 @@
 
 .skill:hover {
   .skill-info {
-    top: 70px;
+    top: 80px;
     p {
       opacity: 1;
       transition: opacity 1s;
-      font-size: 15px;
+      font-size: 20px;
       color: black;
-      border: 1px solid black;
     }
-  }
-  .skill-image {
-    height: 80px;
   }
 }
 
