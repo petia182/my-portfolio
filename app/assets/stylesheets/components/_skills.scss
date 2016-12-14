@@ -4,12 +4,20 @@
   flex-wrap: wrap;
 }
 
-.skill-image {
-  border-radius: 10px;
-  margin-right: 20px;
+.skill {
   height: 80px;
+  width: 80px;
+  position: relative;
   padding-right: 15px;
   margin-bottom: 34px;
+  margin-right: 20px;
+
+}
+
+.skill-image {
+  border-radius: 10px;
+  height: 80px;
+
 }
 
 .skill-info {
@@ -26,16 +34,18 @@
 }
 
 .skill:hover {
-  box-shadow: 1px 1px 6px 0px #96A6C7;
   .skill-info {
-    top: 10px;
+    top: 70px;
     p {
       opacity: 1;
       transition: opacity 1s;
+      font-size: 15px;
+      color: black;
+      border: 1px solid black;
     }
   }
   .skill-image {
-    height: 0px;
+    height: 80px;
   }
 }
 
