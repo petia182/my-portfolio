@@ -7,10 +7,28 @@
 .about p {
   margin-right: 80px;
   text-align: justify;
+  color: black;
+  margin-top: 23px;
 }
 
 .buttons {
   margin-top: 30px;
+}
+
+.title-info {
+  h2 {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  }
+}
+
+.sep-line h4 {
+  border-bottom: 2px solid pink;
+  width: 100px;
+  margin-bottom: 33px;
+  color: transparent;
+  margin: auto
 }
 
 
