@@ -1,5 +1,5 @@
 <div class="wrapper">
-  <div class="container education", id="projects">
+  <div class="container projects" style="background-image: url(<%= image_path ("bg.jpg") %>)", id="projects">
 
     <div class="title-info text-center">
       <h2>PROJECTS</h2>
@@ -7,69 +7,45 @@
 
     <div class="conianer">
       <div class="row">
-
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div id="card-outline", class="hvr-grow">
-            <a class="card-link" href="https://lightclock.herokuapp.com/" target="_blank"></a>
-            <div class="card-category">
+          <div class="card hvr-grow">
+            <a href="https://lightclock.herokuapp.com/" target="_blank"></a>
+            <div class="image">
+              <%= image_tag "lightclock.png" %>
+            </div>
+            <div class="card-text">
               LightClock
             </div>
-            <div class="card product-controls-hidden">
-              <div class="card-image" style="background-image: url('<%= image_path ("lightclock.png") %>');">
-              </div>
-            </div>
-
           </div>
         </div>
-
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div id="card-outline", class="hvr-grow">
-            <a class="card-link" href="https://airbnb-pdunleav.herokuapp.com/" target="_blank"></a>
-            <div class="card-category">
+          <div class="card hvr-grow">
+            <a href="https://like-minded.tech/" target="_blank"></a>
+            <div class="image">
+            <%= image_tag "likeminded.png" %>
+            </div>
+            <div class="card-text">
               LikeMinded
             </div>
-            <div class="card product-controls-hidden">
-              <div class="card-image" style="background-image: url('<%= image_path ("likeminded.png") %>');">
-              </div>
-            </div>
           </div>
         </div>
-
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div id="card-outline", class="hvr-grow">
-            <a class="card-link" href="http://www.like-minded.tech" target="_blank"></a>
-            <div class="card-category">
+          <div class="card hvr-grow">
+            <a href="https://airbnb-pdunleav.herokuapp.com/" target="_blank"></a>
+            <div class="image">
+              <%= image_tag "musiceq.png" %>
+            </div>
+            <div class="card-text">
               MusicEq
             </div>
- <!--            <div class="card-pin">
-              <%# image_tag ("rails.png") %>
-            </div> -->
-            <div class="card product-controls-hidden">
-              <div class="card-image" style="background-image: url('<%= image_path ("musiceq.png") %>');">
-              </div>
-            </div>
           </div>
         </div>
-
       </div>
     </div>
-
   </div>
 </div>
 
 
-<!--     <div class="col-xs-12 col-sm-6">
-      <div id="card-outline", class="hvr-grow">
-        <a class="card-link" href="https://airbnb-pdunleav.herokuapp.com/" target="_blank"></a>
-        <div class="card-category">MusicEq
-        </div>
-        <div class="card-pin">
-          <%# image_tag ("rails.png") %>
-        </div>
-        <div class="card">
-          <div class="card-image" style="background-image: url('<%# image_path ("musiceq.png") %>');">
-          </div>
-        </div>
-      </div> -->
+
 
 
