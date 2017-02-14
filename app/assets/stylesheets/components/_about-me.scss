@@ -1,14 +1,16 @@
 .avatar-me {
   width: 200px;
   border-radius: 50%;
-  margin-left: 80px;
-  box-shadow: 1px 1px 2px grey;
+  box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.45);
+  border: 4px solid #fff;
 }
 .about p {
-  margin-right: 80px;
+  margin: 0 auto;
   text-align: justify;
-  color: black;
+  color: #979797;
   margin-top: 23px;
+  max-width: 923px;
+  font-size: 19px;
 }
 
 .buttons {
@@ -19,10 +21,14 @@
   h2 {
     margin-bottom: 30px;
     margin-top: 100px;
-    color: whitesmoke;
+    color: #80A9A2 ;
     text-transform: uppercase;
     font-weight: 100;
   }
+}
+
+.title-info.project h2 {
+  color: whitesmoke !important;
 }
 
 .sep-line h4 {
