@@ -10,17 +10,20 @@
   justify-content: center;
   background: no-repeat top center fixed;
 }
-.banner h1 {
-  font-size: 50px;
-  font-weight: bold;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-}
-.banner p {
-  font-size: 26px;
-  font-weight: lighter;
-  color: rgba(255, 255, 255, 0.96);
-  margin-bottom: 20px;
-  text-shadow: 0.6px 0.6px grey;
+.banner-content {
+  margin-top: 150px;
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+  p {
+    font-size: 26px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.96);
+    margin-bottom: 20px;
+    text-shadow: 0.6px 0.6px grey;
+  }
 }
 
 .title .border {
