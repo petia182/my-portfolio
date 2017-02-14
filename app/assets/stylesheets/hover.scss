@@ -2160,7 +2160,7 @@
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: pink;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -2189,8 +2189,8 @@
   z-index: -1;
   left: 50%;
   right: 50%;
-  bottom: 0;
-  background: #20C3C6;
+  bottom: -1px;
+  background: pink;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;

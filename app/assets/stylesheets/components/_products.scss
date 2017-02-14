@@ -6,6 +6,11 @@
   transition: all 0.15s ease;
 }
 
+.product.prof {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+
 /* Body design */
 .product-body {
   flex: 1 1 auto;
@@ -17,7 +22,7 @@
 }
 .product-body p {
   font-weight: lighter;
-  color: #999999;
+  color: #5d5959;
   margin-bottom: 0;
 }
 

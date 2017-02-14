@@ -9,3 +9,23 @@ function collapseNavbar() {
 
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
+
+
+// Scroll back to top button:
+$(document).ready(function() {
+  var offset = 30;
+  var duration = 400;
+  $('.back-to-top').css({"display": "none"});
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > offset) {
+      $('.back-to-top').slideDown(duration);
+    } else {
+      $('.back-to-top').slideUp(duration);
+    }
+  });
+  $('.back-to-top').click(function(event) {
+    event.preventDefault();
+    $('html, body').animate({scrollTop: 0}, duration);
+    return false;
+  })
+});
