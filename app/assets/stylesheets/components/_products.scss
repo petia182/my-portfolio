@@ -91,6 +91,32 @@
   border-color: transparent;
 }
 
+.hobbies {
+  margin-top: 30px;
+  h3 {
+    position: absolute;
+  /* top: 10px; */
+  bottom: 14px;
+  left: 493px;
+  color: #27272B;
+  font-family: 'Caveat Brush', cursive;
+  text-transform: uppercase;
+  }
+}
+
+
+.hobbie-image {
+  border-radius: 2px;
+  height: 400px;
+  background-color: whitesmoke;
+  padding: 10px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+
+
+
 /* Hover effects */
 
 .product-upvote:hover, .product-upvote.product-upvote-upvoted {
