@@ -52,9 +52,12 @@
   text-transform: uppercase;
 }
 .navbar-wagon-link:hover {
-  color: #20C3C6;
+  color: #27272B;
   text-decoration: none;
-  transition-duration: 1s;
+  background-color: rgba(245, 245, 245, 0.68);
+  -webkit-transition-duration: 1s;
+  transition-duration: 0.8s;
+  border-radius: 15px;
 }
 
 /* Navbar right button */
