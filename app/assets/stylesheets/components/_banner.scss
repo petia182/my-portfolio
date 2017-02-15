@@ -34,7 +34,6 @@
   width: 50px;
   height: 25px;
   border-radius: 50px 50px 0 0;
-  background-color: #4C4040;
   background-repeat: no-repeat;
   background-position: 50% 108%;
   left: 50%;
@@ -47,9 +46,11 @@
   text-align: center;
   line-height: 50px;
   margin-top: -25px;
+  border: 1px solid whitesmoke;
+  border-bottom: none;
   img {
-    height: 13px;
-    margin-bottom: 15px;
+    height: 14px;
+    margin-bottom: 18px;
   }
 }
 
