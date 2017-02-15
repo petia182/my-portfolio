@@ -16,6 +16,11 @@
   color: #fff;
   background-color: rgba(230, 230, 230, 0.12);
   border-color: whitesmoke;
+  &:hover {
+    color: beige;
+    background-color: rgba(245, 245, 245, 0.45);
+    border-color: whitesmoke;
+  }
 }
 
 #contact {
