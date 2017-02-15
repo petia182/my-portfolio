@@ -1,17 +1,16 @@
 .skills-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 .skill {
   height: 80px;
   width: 80px;
-  position: relative;
   padding-right: 15px;
-  margin-bottom: 45px;
-  margin-right: 40px;
-
+  margin: auto;
 }
 
 .skill-image {
