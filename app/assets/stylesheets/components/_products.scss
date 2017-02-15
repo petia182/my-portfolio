@@ -4,12 +4,14 @@
   padding: 20px;
   border-radius: 3px;
   transition: all 0.15s ease;
+  background-color: rgba(245, 245, 245, 0.14);
+  margin-top: 20px;
 }
 
 .product.prof {
-    margin: 0 auto;
-    max-width: 400px;
-  }
+  margin: 0 auto;
+  max-width: 400px;
+}
 
 /* Body design */
 .product-body {
@@ -19,11 +21,14 @@
   font-weight: bold;
   font-size: 23px;
   margin-top: 0;
+  text-align: left;
 }
 .product-body p {
   font-weight: lighter;
   color: #5d5959;
   margin-bottom: 0;
+  text-align: left;
+  color: rgb(197, 196, 196);
 }
 
 /* Product image */
