@@ -52,7 +52,6 @@
   text-transform: uppercase;
 }
 .navbar-wagon-link:hover {
-  color: #27272B;
   text-decoration: none;
   background-color: rgba(245, 245, 245, 0.68);
   -webkit-transition-duration: 1s;
@@ -150,6 +149,6 @@
   height: 50px;
   transition: 1s;
   a {
-    color: #80A9A2;
+    color: #27272B !important;
   }
 }
