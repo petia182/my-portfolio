@@ -21,21 +21,6 @@
   text-align: center;
 }
 
-.hobbie-card {
-  height: 391px;
-    /* text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6); */
-    background-size: cover !important;
-    color: black;
-    position: relative;
-    background-color: whitesmoke;
-    padding: 22px;
-    border-bottom: 66px solid white !important;
-    border: 10px solid white;
-    padding-bottom: -48px;
-    display: flex;
-    align-items: center;
-  }
-
   .card-user {
     position: absolute;
     right: 10px;
@@ -51,7 +36,7 @@
   .card-description {
     position: absolute;
     bottom: -57px;
-    left: 85px;
+    left: 180px;
     font-family: 'Caveat Brush', cursive;
   }
   .card-description h2 {

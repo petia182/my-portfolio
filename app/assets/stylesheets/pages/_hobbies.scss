@@ -1,0 +1,22 @@
+.hobbie-card {
+  height: 450px;
+  /* text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6); */
+  background-size: cover !important;
+  color: black;
+  position: relative;
+  background-color: whitesmoke;
+  padding: 22px;
+  border-bottom: 66px solid white !important;
+  border: 10px solid white;
+  padding-bottom: -48px;
+  display: flex;
+  align-items: center;
+}
+
+#myCarousel {
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
+
