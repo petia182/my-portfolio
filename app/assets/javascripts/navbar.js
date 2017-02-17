@@ -19,8 +19,12 @@ $(document).ready(function() {
   $(window).scroll(function() {
     if ($(this).scrollTop() > offset) {
       $('.back-to-top').slideDown(duration);
+      $('#slider-arrow').slideUp(duration);
+      $('#slider-arrow').addClass('hidden');
     } else {
       $('.back-to-top').slideUp(duration);
+      $('#slider-arrow').slideDown(duration);
+      $('#slider-arrow').removeClass('hidden');
     }
   });
   $('.back-to-top').click(function(event) {
