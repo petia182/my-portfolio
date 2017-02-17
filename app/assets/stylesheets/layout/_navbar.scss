@@ -43,6 +43,9 @@
   flex: 0 1 auto;
   cursor: pointer;
   padding: 0 20px;
+  a:hover {
+    padding: 8px;
+  }
 }
 
 /* Navbar standard link */
@@ -56,7 +59,7 @@
   background-color: rgba(245, 245, 245, 0.68);
   -webkit-transition-duration: 1s;
   transition-duration: 0.8s;
-  border-radius: 15px;
+  color: black;
 }
 
 /* Navbar right button */
@@ -149,6 +152,9 @@
   height: 50px;
   transition: 1s;
   a {
-    color: #27272B !important;
+    color: #80A9A2;
+    &:hover {
+    color: black;
+    }
   }
 }
